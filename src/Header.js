@@ -1,6 +1,6 @@
 import "./main.css";
 import React from "react";
-import tglogo from "../public/img/tglogo.png";
+import tglogo from "./public/img/tglogo.png";
 
 function Header() {
   return (
