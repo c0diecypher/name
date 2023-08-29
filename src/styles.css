@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+body {
+  background-color: #e4e4e4;
+  color: rgb(39, 39, 39);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+header .usercard {
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+header .father {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5%;
+}
+header .btnurl {
+  text-decoration: none;
+  margin-top: 10px;
+}
+header .button-telegram-channel {
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  border-radius: 35px;
+  background: #ffffff;
+  width: 156px;
+  height: 40px;
+}
+
+header .tglogo {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+  margin-right: 1px;
+  width: 32px;
+  height: 32px;
+}
+
+header .widget-text {
+  text-decoration: none;
+  text-transform: lowercase;
+  margin-top: 6px;
+  margin-left: 4px;
+  width: 100px;
+  height: 17px;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 16.856px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  font-weight: 550;
+  vertical-align: 80%;
+}
+
+header .widget-text-low {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  white-space: nowrap;
+  color: rgb(166, 166, 166);
+  font-size: 10px;
+  width: 100px;
+  height: 17px;
+  margin-top: 24px;
+  margin-left: -100px;
+}
+
+.version {
+  text-align: center;
+  line-height: 20px;
+  margin-top: 20px;
+  color: #000;
+}
